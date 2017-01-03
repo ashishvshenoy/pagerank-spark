@@ -26,9 +26,9 @@ PS : Please modify the shell scripts and the python program to suit your environ
 A 5 node cluster, each node with 20GB RAM and 4 cores was used to run this application.
 
 ## Usage 
-`spark-submit --verbose /home/ubuntu/assignment2/question_a/pagerank_without_partition.py <input_file_path> <output_file_path>`
+`spark-submit --verbose pagerank_without_partition.py <input_file_path> <output_file_path>`
 
-`spark-submit --verbose /home/ubuntu/assignment2/question_a/pagerank_with_partition.py <input_file_path> <output_file_path> <number_of_partitions> <application_name>`
+`spark-submit --verbose pagerank_with_partition.py <input_file_path> <output_file_path> <number_of_partitions> <application_name>`
 
-`spark-submit --verbose /home/ubuntu/assignment2/question_a/pagerank_with_persistence.py <input_file_path> <output_file_path> <number_of_partitions> <application_name>`
+`spark-submit --verbose pagerank_with_persistence.py <input_file_path> <output_file_path> <number_of_partitions> <application_name>`
 
